@@ -1,5 +1,4 @@
 # rm_version-study
-视觉组的任务
 
 均在ubuntu实现
 
