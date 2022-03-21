@@ -1,0 +1,3 @@
+/home/stringwind-lqh/C And C++ Code/CMakeFiles/rebuild_cache.dir
+/home/stringwind-lqh/C And C++ Code/CMakeFiles/edit_cache.dir
+/home/stringwind-lqh/C And C++ Code/CMakeFiles/ImageShow.dir
