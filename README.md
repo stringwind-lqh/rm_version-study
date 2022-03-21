@@ -1,6 +1,6 @@
 # rm_version-study
 
-均在ubuntu实现
+均在ubuntu实现(21.10)
 
 1.1 使用imread(“文件名”)，读取一张彩色图片。了解CV处理单个像素的方法，然后将每个像素的rgb
 值同时改为(r+g+b)/3，即将3个通道的值统一为相同值，改为3个通道的平均值。然后显示图片，
@@ -10,11 +10,14 @@
 1.2 在练习1的基础上，在处理每个像素的时候加个一个条件。声明一个uchar变量uchar threshold
 =100，如果 average>threshold 则average=255，否则为0。然后再把average值赋值给像素的3
 个通道，并通过 imshow 函数观察结果，然后修改threshold 值，观察输出结果。
- file:///home/stringwind-lqh/%E5%9B%BE%E7%89%87/1.2.png
-1.3 读取一张图片，存入 mat型变量 srcMat，然后声明两个mat型数据，命名为deepMat和
+![1 2](https://user-images.githubusercontent.com/88667447/159252696-42e1a45f-0888-4c34-9cfb-8c6f21addfe0.png)
+
+1.3 读取一张图片，存入 mat型
+变量 srcMat，然后声明两个mat型数据，命名为deepMat和
 shallowMat。分别用深复制和浅复制把 srcMat的内容赋值给两个mat。然后用练习2中的方法修改
 srcMat的值。观察deepMat和 shallowMat的变化。
- file:///home/stringwind-lqh/%E5%9B%BE%E7%89%87/1.3.png
+![1 3](https://user-images.githubusercontent.com/88667447/159252827-1f86d9d5-2e8c-402b-9116-4516dbc6a209.png)
+
 1.4 通道分离，利用图像在色彩上的一些特点，可以在图像处理中进行一些巧妙的处理。通过opencv
 将下图的rgb 三个通道分离，并观察每个通道的图像。
 ![1 4](https://user-images.githubusercontent.com/88667447/159251705-639ba3c0-2b28-4be3-86b2-3f84b78f5996.png)
@@ -36,13 +39,15 @@ srcMat的值。观察deepMat和 shallowMat的变化。
 ![2 1](https://user-images.githubusercontent.com/88667447/159251877-c5e670cb-afbd-48be-973a-b719eac93966.png)
 
 2.2 对上图先进行二值化，然后分别进行腐蚀、膨胀、开运算和闭运算。
- file:///home/stringwind-lqh/%E5%9B%BE%E7%89%87/2.2.png
+![2 2](https://user-images.githubusercontent.com/88667447/159252936-8aa7b453-a4f8-4f6d-95f3-44dd4d92c5fa.png)
+
 2.3 对上图先进行二值化，然后进行连通域标记，并绘制出每个连通域的 外接四边形（Bounding
 Box），并使用 cout << 将硬币的个数输出至状态栏
 ![2 3](https://user-images.githubusercontent.com/88667447/159251918-a3c708ca-ea24-47b1-ae33-4b68e74a59d0.png)
 
 2.4 根据上一题所学知识，对下列图片进行自动计数。
  file:///home/stringwind-lqh/%E5%9B%BE%E7%89%87/2.4.png
+ 
 2.5 读取摄像头图像，并对摄像头图像进行中值滤波、均值滤波、高斯滤波
 ![2 5](https://user-images.githubusercontent.com/88667447/159252011-5cdf0b3f-4814-433f-98b5-05c788476ab5.png)
 
@@ -51,4 +56,6 @@ Box），并使用 cout << 将硬币的个数输出至状态栏
 
 3 请对以下原图进行处理，得到检测对应检测结果， 同时，将以下 ROI 区域使用单独新的窗口
 显示出来同时思考，怎么在得到当前算法的基础上进行优化。
- file:///home/stringwind-lqh/%E5%9B%BE%E7%89%87/3..png file:///home/stringwind-lqh/%E5%9B%BE%E7%89%87/3.png
+![3](https://user-images.githubusercontent.com/88667447/159252635-817dca1b-91a1-4603-8fb7-e94dd683abdd.png)
+![3](https://user-images.githubusercontent.com/88667447/159252648-c8a084d0-a109-4939-8b58-8267a0e095ae.png)
+
