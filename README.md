@@ -46,8 +46,8 @@ Box），并使用 cout << 将硬币的个数输出至状态栏
 ![2 3](https://user-images.githubusercontent.com/88667447/159251918-a3c708ca-ea24-47b1-ae33-4b68e74a59d0.png)
 
 2.4 根据上一题所学知识，对下列图片进行自动计数。
- file:///home/stringwind-lqh/%E5%9B%BE%E7%89%87/2.4.png
- 
+![2 4](https://user-images.githubusercontent.com/88667447/159253274-5a180811-9d59-4b51-bcab-b65586f02842.png)
+
 2.5 读取摄像头图像，并对摄像头图像进行中值滤波、均值滤波、高斯滤波
 ![2 5](https://user-images.githubusercontent.com/88667447/159252011-5cdf0b3f-4814-433f-98b5-05c788476ab5.png)
 
