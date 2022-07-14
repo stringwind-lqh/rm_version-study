@@ -32,7 +32,7 @@ srcMat的值。观察deepMat和 shallowMat的变化。
 ![1 6](https://user-images.githubusercontent.com/88667447/159251767-bc6cc585-2c97-45e4-95d5-c70f8dbea254.png)
 
 1.7. 实现 Gamma 矫正并思考它可以用在什么场景，题目使用图片如下
-![1 7 1](https://user-images.githubusercontent.com/88667447/159251784-9e3cd78e-3dcc-46aa-8cd8-9de31d4c9a79.png)
+![1 7 2](https://user-images.githubusercontent.com/88667447/178887705-72760049-1100-47bf-8ea6-b84dc20bff71.png)
 
 2.1 HSV 通道的二值化
 利用不同的物体在 HSV 色彩空间上的不同色域，实现目标像素的提取。主要利用 inRange 函数
